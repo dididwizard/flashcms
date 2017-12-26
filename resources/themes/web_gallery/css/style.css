@@ -1,0 +1,112 @@
+*{
+	padding:0;
+	margin: 0;
+}
+@font-face{
+	font-family: Open Sans;
+	src:url("fonts/OpenSans-Light.ttf");
+}
+@font-face{
+	font-family: Orbitron;
+	src:url("fonts/Orbitron/Orbitron-Medium.ttf");
+}
+@font-face{
+	font-family: Xperia;
+	src:url("fonts/xperia/Xperia.ttf");
+}
+
+body{
+	background-color: white;
+	color:black;
+	font-family:Open Sans;
+}
+a{
+	color:blue;
+}
+
+#top-nav{
+	display:block;
+	background-color:#202020;
+}
+#top-link{
+	float:;
+	display:inline-block;
+
+}
+#top-link a{
+	display:inline-block;
+	padding:13px 16px;
+	background-color:#303030;
+	color:white;
+	border:none;
+	text-decoration:none;
+	font-size:0.85em;
+}
+#top-link a:hover{
+	background-color:#282828;
+}
+
+#social-link{
+	float:right;
+	display:inline-block;
+}
+#social-link a{
+	text-decoration:none;
+	display:inline-block;
+}
+#fb-link{
+	background-color: #3d5e94;
+	color:white;
+	padding:18px;
+}
+#tw-link{
+	background-color: #00b1ea;
+	color:white;
+	padding:18px 15px;
+}
+#gp-link{
+	background-color: #db3f30;
+	color:white;
+	padding:18px 10px;
+}
+
+header{
+	display:block;
+	padding:26px 20px;
+	background-color:#252525;
+	color:white;
+	font-family:Xperia;
+	font-size:1.2em;
+}
+footer{
+	display:block;
+	padding:26px 20px;
+	background-color:#202020;
+	color:white;
+	font-size:0.9em;
+	text-align:center;
+	line-height:1.5em;
+}
+footer span{
+	font-family:Xperia;
+}
+#post, .post{
+	width:70%;
+	margin:24px 16px;
+	padding:32px;
+	background-color:#f3f3f3;
+	color:rgba(0,0,0,0.7);
+	border-radius:5px;
+}
+.post-title{
+	display:block;
+}
+.post-title a, .post-title{
+	font-family:Xperia;
+	color:limegreen;
+	font-size:1.3em;
+}
+.post-author, .post-category, .post-date{
+	margin:12px 8px;
+	display:inline-block;
+}

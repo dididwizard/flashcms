@@ -1,0 +1,245 @@
+*{
+	padding:0;
+	margin: 0;
+}
+@font-face{
+	font-family: Open Sans;
+	src:url("fonts/OpenSans-Light.ttf");
+}
+@font-face{
+	font-family:Roboto Medium;
+	src:url("fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face{
+	font-family:Roboto Light;
+	src:url("fonts/roboto/Roboto-Light.ttf");
+}
+@font-face{
+	font-family:Roboto Regular;
+	src:url("fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face{
+	font-family:Roboto Condensed;
+	src:url("fonts/roboto/Roboto-Condensed.ttf");
+}
+@font-face{
+	font-family: Xperia;
+	src:url("fonts/xperia/Xperia.ttf");
+}
+
+body{
+	background-color: white;
+	color:black;
+	font-family:Open Sans;
+}
+
+main{
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:18%;
+	right:0;
+	margin-top:72px;
+	height:536px;
+	overflow:auto;
+}
+#loader{
+	display:none;
+	position:fixed;
+	top:12%;
+	bottom:0;
+	left:18%;
+	right:0;
+	background-color:white;
+}
+#loader img{
+	position:absolute;
+	top:45%;
+	left:46.5%;
+}
+#cms-info{
+	display:none;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:23%;
+	right:0;
+	background-color:#151515;
+	color:white;
+}
+#cms-overview{
+	margin:24px;
+}
+#cms-overview table tr td{
+	padding:8px;
+}
+
+#cms-action{
+	margin:48px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	text-align:left;
+}
+#cms-backup{
+	background-color:#252525;
+	color:white;
+	border:none;
+	outline:none;
+	padding:24px 32px;
+	text-align:center;
+	font-size:0.9em;
+}
+#cms-backup:hover{
+	background-color:#202020;
+}
+
+
+
+header{
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+	padding: 14px 13px;
+	background-color:#ffffff;
+	background-image: -webkit-linear-gradient(white, #f6f6f6);
+	background-image: -moz-linear-gradient(white, #f6f6f6);
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 10px 10px -10px rgba(0,0,0,0.1);
+	box-shadow:0 10px 10px -10px rgba(0,0,0,0.1);
+	color:rgba(0,0,0,0.5);
+	font-size:1.1em;
+}
+#title-header{
+	font-family:Xperia;
+}
+#title-version-header{
+	font-size:0.7em;
+	margin-left:4px;
+}
+#header-menu{
+	display:inline-block;
+	margin-left:64px;
+}
+#header-menu button{
+	background-color:white;
+	background-image: -webkit-linear-gradient(#f8f8f8, #f9f9f9);
+	color:rgba(0,0,0,0.5);
+	border:1px solid rgba(0,0,0,0.05);
+	/*-webkit-box-shadow:0 0 10px rgba(0,0,0,0.1);*/
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	outline:none;
+	padding:12px 24px;
+	margin:0 8px;
+	font-size:0.8em;
+}
+#header-menu button:first-of-type{
+	margin:0 14px 0 0;
+}
+#header-menu button:hover{
+	background-color:rgba(0,0,0,0.08);
+	background-image:none;
+}
+#profile-link{
+	display:inline-block;
+	position:absolute;
+	top:10px;
+	bottom:4px;
+	right:24px;
+}
+
+
+
+
+nav{
+	display: block;
+	position:fixed;
+	top:12%;
+	bottom:0;
+	left:0;
+	width:17.7%;
+	height:515px;
+	overflow:auto;
+	background-color: #f9f9f9;
+	color:white;
+	box-shadow:25px 0 25px -25px rgba(0,0,0,0.1);
+	-webkit-box-shadow:25px 0 25px -25px rgba(0,0,0,0.1);
+	text-align:center;
+	padding:10px 0;
+}
+@media (max-width:720px){
+	nav{
+		display:none;
+		width:75%;
+		z-index:1;
+	}
+}
+
+nav div{
+	display:none;
+}
+
+#minimize-info{
+	display:none;
+	position:fixed;
+	width:23%;
+	top:0;
+	bottom:0;
+	left:0;
+	background-color:#121212;
+}
+#minimize-info div{
+	padding:26px 16px 26px 16px;
+	margin-bottom:0;
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	background-color:#101010;
+}
+#minimize-info div:hover{
+	background-color: #090909;
+}
+
+
+.menu::-webkit-scrollbar{
+	width:11px;
+	height:11px;
+}
+.menu::-webkit-scrollbar-track{
+	background-color:#202020;
+}
+.menu::-webkit-scrollbar-thumb{
+	display:;
+	background-color:#404040;
+	border-radius:2px;
+}
+nav button{
+	display:inline-block;
+	width:88%;
+	background-color:#f6f6f6;
+	color:rgba(0,0,0,0.5);
+	border:1px solid rgba(0,0,0,0.08);
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	outline:none;
+	padding:12px;
+	margin:12px 0;
+	text-align:left;
+	font-family:Roboto Condensed;
+	font-size:1em;
+	line-height:2em;
+}
+nav button i{
+	font-size:1em;
+}
+nav button:hover{
+	background-color:gainsboro;
+}

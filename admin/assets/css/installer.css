@@ -1,0 +1,117 @@
+*{
+	padding:0;
+	margin: 0;
+}
+@font-face{
+	font-family: Open Sans;
+	src:url("fonts/OpenSans-Light.ttf");
+}
+
+@font-face{
+	font-family: Xperia;
+	src:url("fonts/xperia/Xperia.ttf");
+}
+@font-face{
+	font-family: Source Code Regular;
+	src:url("fonts/source code pro/SourceCodePro-Regular.ttf");
+}
+
+body{
+	background-color: white;
+	color:black;
+	font-family:Open Sans;
+}
+
+header{
+	display:none;
+	background-color:#f6f6f6;
+	background-image: -webkit-linear-gradient(white, #f6f6f6);
+	background-image: -moz-linear-gradient(white, #f6f6f6);
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 10px 10px -10px rgba(0,0,0,0.1);
+	box-shadow:0 10px 10px -10px rgba(0,0,0,0.1);
+	color:rgba(0,0,0,0.8);
+	font-size:1.1em;
+	position:absolute;
+	top:0;
+	left:18%;
+	right:18%;
+	padding:16px;
+}
+header span{
+	display:block;
+}
+header span:first-of-type{
+	font-family:Xperia;
+}
+header span:last-of-type{
+	font-size:0.9em;
+	line-height:2em;
+}
+header div{
+	display:inline-block;
+	position:absolute;
+	top:24px;
+	right:24px;
+}
+
+footer{
+	display:none;
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color:#f6f6f6;
+	background-image: -webkit-linear-gradient(white, #f6f6f6);
+	background-image: -moz-linear-gradient(white, #f6f6f6);
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	-webkit-box-shadow:0 10px 10px -10px rgba(0,0,0,0.1);
+	box-shadow:0 10px 10px -10px rgba(0,0,0,0.1);
+	color:rgba(0,0,0,0.8);
+	font-size:1.1em;
+}
+
+
+#intro{
+	display:block;
+	background-color:#f8f8f8;
+	-webkit-box-shadow:0 10px 10px -10px rgba(0,0,0,0.2);
+	box-shadow:0 10px 10px -10px rgba(0,0,0,0.2);
+	color:rgba(0,0,0,0.8);
+	font-size:1.25em;
+	line-height: 1.5em;
+	border-radius:5px;
+	color:rgba(0,0,0,0.6);
+	padding:64px 24px;
+	position:absolute;
+	top:10%;
+	right:27%;
+	left:27%;
+	bottom:10%;
+	text-align:center;
+	cursor:default;
+}
+#intro span{
+	font-family:Xperia;
+	font-size:1.2em;
+	color:#008dd3;
+	line-height: 2em;
+}
+#intro button{
+	background-color:#008dd3;
+	color:white;
+	border:none;
+	border-radius:5px;
+	outline:none;
+	box-shadow:0 5px 5px -5px #006faa;
+	padding:16px 48px;
+	margin-top:100px;
+	text-align: center;
+	font-size:0.9em;
+	font-family:Helvetica;
+	cursor:pointer;
+}
+#intro button:hover{
+	background-color:#006faa;
+	box-shadow:none;
+}

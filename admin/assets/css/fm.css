@@ -1,0 +1,154 @@
+@font-face{
+    font-family: Nexa Bold;
+    src: url("../fonts/nexa/Nexa Bold.otf");
+}
+
+.fm{
+	padding:0;
+}
+#fm-menu{
+	display:none;
+	padding:0;
+	height:55px;
+}
+#fm-menu button{
+	background-color:#eeeeee;
+	color:rgba(0,0,0,0.4);
+	border:none;
+	outline:none;
+	padding:0 46px;
+	margin:0;
+	height:55px;
+	font-family:roboto;
+}
+#fm-menu button:hover{
+	background-color:rgba(0,0,0,0.1);
+}
+#fm-menu button:first-of-type{
+	border-bottom:2px solid #60afe8;
+}
+
+.files{
+	padding:0 16px;
+	width:80%;
+	white-space:nowrap;
+	overflow-y:auto;
+}
+#loading-files{
+	padding:32px 24px;
+	font-size:1.2em;
+}
+.files table{
+}
+.files table tr td{
+	padding:20px 8;
+	cursor:default;
+}
+.list{
+	margin:8px 0;
+	padding:18px 16px;
+}
+.list:hover{
+	background-color:rgba(0,0,0,0.1);
+	cursor:pointer;
+}
+.files table tr td:first-of-type i{
+	color: rgba(0,111,170,0.5);
+}
+.files table tr:first-of-type td{
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	color:#60afe8;
+}
+
+.files table tr td:nth-child(1){
+	width:35%;
+	
+}
+.files table tr td:nth-child(2){
+	width:15%;
+	
+	padding:0 16px;
+}
+.files table tr td:nth-child(3){
+	width:25%;
+	
+	padding:0 16px;
+}
+.files table tr td:nth-child(4){
+	width:25%;
+	padding:0 16px;
+}
+
+.folder-list, .file-list{
+	display:none;
+}
+
+.choose-folder, .choose-file{
+	padding:8px;
+	border:1px solid #008dd3;
+	border-radius:5px;
+	outline:none;
+}
+
+#fm-nav{
+	display:block;
+	position:absolute;
+	top:0.5%;
+	bottom:0;
+	right:0;
+	width:20%;
+	background-color:white;
+	color:rgba(0,0,0,0.6);
+	border-left:1px solid rgba(0,0,0,0.1);
+	border-radius:5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	padding:8px;
+	text-align:center;
+}
+#fm-nav button{
+	width:50%;
+	padding:20px 0;
+	border:none;
+	outline:none;
+	background-color:white;
+}
+#fm-nav button i{
+	font-size:2em;
+	margin-bottom:8px;
+	color:#006faa;
+}
+#fm-nav button[disabled]{
+	color:rgba(0,0,0,0.3);
+}
+#fm-nav button[disabled] i{
+	color:rgba(0,0,0,0.3);
+}
+
+.fm-dialog{
+	position:fixed;
+	top:9%;
+	bottom:0;
+	right:0;
+	left:20%;
+	z-index:1000;
+	padding:12% 0 0 20%;
+	background-color:rgba(0,0,0,0.1);
+}
+.fm-dialog span{
+	font-family:Nexa Bold;
+}
+.fm-dialog div{
+	width:45%;
+	background-color:white;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
+	padding:16px;
+}
+.fm-dialog div input{
+}
+.fm-dialog div::-webkit-input-placeholder{
+	color:rgba(0,0,0,0.7);
+}
+.fm-dialog div::-moz-placeholder{
+	color:rgba(0,0,0,0.7);
+}

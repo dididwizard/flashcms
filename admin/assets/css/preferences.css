@@ -1,0 +1,44 @@
+.preferences{
+	padding:16px;
+}
+.pref-site table tr{
+	width:100%;
+}
+.pref-site table tr td:first-of-type{
+	padding:0px;
+	width:40%;
+}
+.pref-site table tr td input[type=text], .pref-site table tr td select{
+	border:1px solid gainsboro;
+	border-radius:3px;
+	outline:none;
+	padding:0px 8px;
+	width:50%;
+	color:rgba(0,0,0,0.7);
+}
+.pref-site table tr td select{
+	display:block;
+	padding:6px;
+}
+.pref-site table tr td select *, .pref-site table tr td input[type=text] *{
+	padding:8px;
+}
+.pref-site table tr td input[type=text]:focus, .pref-site table tr td select:focus{
+	border-color:#60afe8;
+	box-shadow:0 0 5px rgba(96, 175, 232, 0.7);
+}
+
+#save-pref-link{
+	background-color:#008dd3;
+	color:white;
+	border:none;
+	outline:none;
+	padding:16px 48px;
+	border-radius:3px;
+	margin:8px 0;
+	cursor:pointer;
+}
+#save-pref-link:hover{
+	background-color:#006faa;
+	background-color:#006faa;
+}
