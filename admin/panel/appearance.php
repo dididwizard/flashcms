@@ -1,4 +1,4 @@
-<?php include "./connection.php";
+<?php include "../setting.php";
 // Get Current Theme
 $query = mysqli_query($dbc, "SELECT * FROM site WHERE id=1");
 $themee = mysqli_fetch_assoc($query);

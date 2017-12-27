@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-	include "connection.php";
+	include "../setting.php";
 	// Set Theme
 	if($_POST['theme']){
 		$theme = mysqli_real_escape_string($dbc, $_POST['theme']);
