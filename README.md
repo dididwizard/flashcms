@@ -3,5 +3,5 @@
 - Email : didid.wizard@gmail.com
 - Phone : +6282274608973
 
-Collaboration :
+Collaborators :
 - Ahmad Hasib Haidar
